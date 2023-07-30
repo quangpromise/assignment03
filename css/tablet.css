@@ -1,0 +1,31 @@
+@media screen and (max-width: 992px) {
+    /* CSS NAV section */
+    .nav-ava {
+        display: none;
+    }
+    /* CSS Job section */
+    .job-info {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+    }
+
+    .ctf-content {
+        display: flex;
+        flex-direction: column;
+    }
+    /* CSS PROJECT */
+    .project-row {
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: auto;
+    }
+    .cv-detail {
+       font-size: 14px;
+    }
+    .year-icon {
+        padding-top: 10px;
+    }
+
+}

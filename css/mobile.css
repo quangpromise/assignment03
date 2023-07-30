@@ -1,0 +1,58 @@
+/* CSS PROJECT */
+
+@media (max-width: 768px) {
+    /* CSS Navbar */
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+    }
+    /* CSS About */
+    .peronal-css {
+        max-width: 100%;
+    }
+    /* CSS JOB */
+
+    .job-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* CSS CHUNG CHI */
+    .row1 {
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+    }
+    .content1, .content2 {
+        border-right: none;
+        border-bottom: 2px solid #d6c08d;
+    }
+    .ctf-content {
+        width: 100%;
+    }
+
+    /* CSS PROJECT */
+    .project-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .cv-detail {
+        display: flex;
+        flex-direction: column;
+    }
+    .year-icon {
+        padding: 5px;
+        text-align: center;
+        width: 70px;
+    }
+    /* CSS FOOTER */
+
+    .footer-dsc span {
+        display: none;
+        
+    }
+    .footer-dsc i {
+        font-size: 60px;
+    }
+    
+}
